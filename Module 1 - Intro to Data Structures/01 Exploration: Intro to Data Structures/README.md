@@ -10,11 +10,13 @@
 
 ## Additional Notes
 
+[Abstract data types vs Data structures](https://abrickshort.wordpress.com/2005/03/06/abstract-data-types-vs-data-structures/)
+
 - ADT is the logical picture of the data and the operations to manipulate the component elements of the data. 
 
 - Data structure is the actual representation of the data during the implementation and the algorithms to manipulate the data elements. 
 
 - ADT is in the logical level and data structure is in the implementation level.
 
-[Abstract data types vs Data structures](https://abrickshort.wordpress.com/2005/03/06/abstract-data-types-vs-data-structures/)
+
 
