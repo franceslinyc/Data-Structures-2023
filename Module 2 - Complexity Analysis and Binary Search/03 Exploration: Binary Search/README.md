@@ -52,10 +52,11 @@ def selection_sort(list: list):
     for i in range(len(list) - 1):
         min_index = i
         
-        # Loop over the remaining unsorted part of the list 
-        # and find the index of the smallest element
-        for j in range(i + 1, len(list)):
-            if list[j] < list[min_index]:
+        
+        
+        for j in range(i + 1, len(list)): # Loop over the remaining unsorted part of the list
+                                          # and find the index of the smallest element
+            if list[j] < list[min_index]: 
                 min_index = j
         
         # Swap the smallest element found with the current element 
@@ -78,10 +79,8 @@ def binary_search(list: list, target: object) -> int:
 
     while low <= high:
         
-        
-        mid = (low + high) // 2 # find the midpoint of all indices still possible
+        mid = (low + high) // 2  # find the midpoint of all indices still possible
 
-        
         if target < list[mid]:   # Since value is lower, if it's there will be left of mid
             high = mid - 1
         
@@ -91,7 +90,6 @@ def binary_search(list: list, target: object) -> int:
         else:                    # Neither higher not lower, it's a match - found
             return mid
 
-    
     return -1  # All indices have been eliminated from consideration, not found
 ```
 
