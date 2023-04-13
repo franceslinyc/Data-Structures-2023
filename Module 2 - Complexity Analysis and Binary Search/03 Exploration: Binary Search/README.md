@@ -78,21 +78,21 @@ def binary_search(list: list, target: object) -> int:
 
     while low <= high:
         
-        # find the midpoint of all indices still possible
-        mid = (low + high) // 2
+        
+        mid = (low + high) // 2 # find the midpoint of all indices still possible
 
-        # Since value is lower, if it's there will be left of mid
-        if target < list[mid]:
+        
+        if target < list[mid]:   # Since value is lower, if it's there will be left of mid
             high = mid - 1
-        # Since value is higher, if it's there will be right of mid
-        elif target > list[mid]:
+        
+        elif target > list[mid]: # Since value is higher, if it's there will be right of mid
             low = mid + 1
-        # Neither higher not lower, it's a match - found
-        else:
+        
+        else:                    # Neither higher not lower, it's a match - found
             return mid
 
-    # All indices have been eliminated from consideration, not found
-    return -1
+    
+    return -1  # All indices have been eliminated from consideration, not found
 ```
 
 
