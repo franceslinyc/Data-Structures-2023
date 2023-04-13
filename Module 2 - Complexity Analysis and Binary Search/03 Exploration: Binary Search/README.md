@@ -28,11 +28,11 @@ binary search would perform on the order of $\log(4,000,000,000) \approx 32$, on
 
 At each iteration, we:
 
-1. Compare the query value (i.e., the value we are searching for) to the value at the midpoint of the list.
+- Compare the query value (i.e., the value we are searching for) to the value at the midpoint of the list.
 
-2. If this midpoint value matches the query value, immediately return a designated value to indicate that the query value has been found.
+- If this midpoint value matches the query value, immediately return a designated value to indicate that the query value has been found.
 
-3. Otherwise: 
+- Otherwise: 
 
   1. If the query value is less than the value at the list’s midpoint, repeat, focusing only on the “lower” half of the list (i.e., the half of the list before the midpoint).
 
