@@ -22,6 +22,8 @@ To identify code that runs in $\mathcal{O}(\log(n))$ time complexity look for co
 
 - Traverses once through a data structure that stores data in a branching hierarchy (like a binary tree)
 
+- e.g. binary search algorithm
+
 
 ## $\mathcal{O}(\sqrt(n))$ - Fractional Power Complexity
 
@@ -37,6 +39,8 @@ To identify code that runs in $\mathcal{O}(\sqrt(n))$ time complexity look for c
 To identify code that runs in $\mathcal{O}(n)$ time complexity look for code that:
 
 - Contains a loop that does constant time work and is based directly on the input size
+
+- e.g. linear search algorithm
 
 
 ## $\mathcal{O}(n \log(n))$ - Log-Linear or Linearithmic Complexity
@@ -57,6 +61,12 @@ To identify code that runs in $\mathcal{O}(n^2)$ time complexity look for code t
 - Has nested $\mathcal{O}(n)$ loops, assuming the code in the innermost loop runs in constant time
 
 
+## $\mathcal{O}(2^n)$ - Exponential Complexity
+
+## $\mathcal{O}(n!)$ - Factorial Complexity
 
 
+
+
+**To be continue 04/12/2023** 
 
