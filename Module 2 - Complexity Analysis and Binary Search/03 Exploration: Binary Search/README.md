@@ -41,18 +41,62 @@ At each iteration, we:
   3. If the list under consideration has size 0, we can stop because we have eliminated every index as a possibility. Here, we can either return a designated value to indicate that the query value hasn’t been found (e.g., -1, since it is not a valid index).
 
 
+### Binary Search Implementation
+
+```{}
+def selection_sort(list: list):
+    """
+    Sorts list in non-descending order
+    Complexity:  O(n**2)
+    """
+    for i in range(len(list) - 1):
+        min_index = i
+        
+        # Loop over the remaining unsorted part of the list 
+        # and find the index of the smallest element
+        for j in range(i + 1, len(list)):
+            if list[j] < list[min_index]:
+                min_index = j
+        
+        # Swap the smallest element found with the current element 
+        temp = list[min_index]
+        list[min_index] = list[i]
+        list[i] = temp
+```
+
+```{}
+def binary_search(list: list, target: object) -> int:
+    """
+    Searches for target, returns index where first found else -1
+    Complexity:  O(log n)
+    Precondition:  List must be sorted in non-descending order
+    """
+
+    # set range of possible indices to entire list
+    low = 0
+    high = len(list) - 1
+
+    while low <= high:
+        
+        # find the midpoint of all indices still possible
+        mid = (low + high) // 2
+
+        # Since value is lower, if it's there will be left of mid
+        if target < list[mid]:
+            high = mid - 1
+        # Since value is higher, if it's there will be right of mid
+        elif target > list[mid]:
+            low = mid + 1
+        # Neither higher not lower, it's a match - found
+        else:
+            return mid
+
+    # All indices have been eliminated from consideration, not found
+    return -1
+```
 
 
-
-
-
-
-
-
-
-
-
-
+**selection_sort is confusing 04/12/2023** 
 
 
 
