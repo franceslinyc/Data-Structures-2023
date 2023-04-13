@@ -3,17 +3,29 @@ Programming assignments for CS261 Data Structures at OSU
 
 ## Assignments
 
-Assignment 1: Python Fundamentals Review
+Assignment 1: 
 
-Assignment 2: Dynamic Array and ADT Implementation
+Python Fundamentals Review
 
-Assignment 3: Linked List and ADT Implementation
+Assignment 2: 
 
-Assignment 4: BST/AVL Tree Implementation
+Dynamic Array and ADT Implementation
 
-Assignment 5: MinHeap Implementation
+Assignment 3: 
 
-Assignment 6: HashMap (Portfolio Assigment)
+Linked List and ADT Implementation
+
+Assignment 4: 
+
+BST/AVL Tree Implementation
+
+Assignment 5: 
+
+MinHeap Implementation
+
+Assignment 6: 
+
+HashMap (Portfolio Assigment)
 
 ## Notes
 
