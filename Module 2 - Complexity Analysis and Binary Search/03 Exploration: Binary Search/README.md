@@ -51,9 +51,7 @@ def selection_sort(list: list):
     """
     for i in range(len(list) - 1):
         min_index = i
-        
-        
-        
+   
         for j in range(i + 1, len(list)): # Loop over the remaining unsorted part of the list
                                           # and find the index of the smallest element
             if list[j] < list[min_index]: 
