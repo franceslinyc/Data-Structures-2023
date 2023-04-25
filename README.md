@@ -42,21 +42,26 @@ HashMap (Portfolio Assigment)
 
 ## Module 3 Dynamic Arrays, Amortized Analysis
 
-- [01 Exploration/ Python’s List]()
+- [01 Exploration/ Python’s List]
 
-- [02 Exploration/ Dynamic Arrays]()
+- [02 Exploration/ Dynamic Arrays]
 
-- [03 Exploration/ Amortized Analysis]()
+- [03 Exploration/ Amortized Analysis]
 
-- [04 Exploration/ An Overview of the Bag ADT]()
+- [04 Exploration/ An Overview of the Bag ADT]
 
-- [05 Exploration/ Encapsulation and Iterators]()
-
-
+- [05 Exploration/ Encapsulation and Iterators]
 
 
+## Module 4 Linked Lists, Stacks, Queues, and Deques
 
+- [01 Exploration/ Introduction to Linked Lists]
 
+- [02 Exploration/ Stacks]
+
+- [03 Exploration/ Queues]
+
+- [04 Exploration/ Deques]
 
 
 
