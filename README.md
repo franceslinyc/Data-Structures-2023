@@ -35,6 +35,8 @@ HashMap (Portfolio Assigment)
 
 ## Module 2 - Complexity Analysis and Binary Search
 
+- [01 Exploration/ Big O Notation]()
+
 - [02 Exploration/ Big O Examples](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%202%20-%20Complexity%20Analysis%20and%20Binary%20Search/02%20Exploration:%20Big%20O%20Examples)
 
 - [03 Exploration/ Binary Search](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%202%20-%20Complexity%20Analysis%20and%20Binary%20Search/03%20Exploration:%20Binary%20Search)
