@@ -5,7 +5,7 @@ Programming assignments for CS261 Data Structures at OSU
 
 Assignment 1: 
 
-Python Fundamentals Review
+[Python Fundamentals Review]()
 
 Assignment 2: 
 
