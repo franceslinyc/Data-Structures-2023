@@ -32,8 +32,6 @@ $\mathcal{O}(2^n)$ - Exponential Complexity
 
 $\mathcal{O}(n!)$ - Factorial Complexity
 
-
-
 ## Additional Notes 
 
 [Table of common time complexities](https://en.wikipedia.org/wiki/Time_complexity#Table_of_common_time_complexities)
