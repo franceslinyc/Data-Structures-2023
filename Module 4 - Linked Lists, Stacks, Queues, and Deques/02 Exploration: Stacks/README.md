@@ -14,15 +14,15 @@
 
 
 
-### push(x)
+### `push(x)`
 
 - Push an item x onto the top of the stack. This item is now the new top of the stack. 
 
-### pop()
+### `pop()`
 
 - Remove the top item from the stack and returns its value. 
 
-### peek() or top()
+### `peek()` or `top()`
 
 - Return the value of the top item in a stack without removing it.
 
@@ -33,19 +33,19 @@
 
 e.g.
 
-head -> 4 next -> 2 next -> None
+Return `head -> 4 next -> 2 next -> None`
 
 `push(8)`
 
-head -> 8 next -> 4 next -> 2 next -> None
+Return `head -> 8 next -> 4 next -> 2 next -> None`
 
 `pop() # remove 8` 
 
-head -> 4 next -> 2 next -> None
+Return `head -> 4 next -> 2 next -> None`
 
 `pop() # remove 4` 
 
-head -> 2 next -> None
+Return `head -> 2 next -> None`
 
 
 ## Implementing a Stack Using a Dynamic Array
@@ -54,18 +54,18 @@ head -> 2 next -> None
 
 e.g. 
 
-[2 4]
+Return `[2 4]`
 
 `push(8)`
 
-[2 4 8]
+Return `[2 4 8]`
 
 `push(16)` and `push(32)` (in this order)
 
-[2 4 8 16 32]
+Return `[2 4 8 16 32]`
 
 `pop() # remove 32` 
  
-[2 4 8 16]
+Return `[2 4 8 16]`
 
 
