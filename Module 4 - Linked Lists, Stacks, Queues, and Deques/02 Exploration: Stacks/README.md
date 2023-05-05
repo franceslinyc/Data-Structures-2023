@@ -1,4 +1,4 @@
-# Stacks
+# Stacks (last in, first out (or LIFO))
 
 ## Introduction 
 
@@ -10,7 +10,7 @@
 
 ## Stack Operations
 
-- A stack is a linear ADT that imposes a last in, first out (or LIFO) order on elements. I.e., in a stack, the last element that was inserted must always be the first one to be removed. 
+- A stack is a linear ADT that imposes a **last in, first out (or LIFO)** order on elements. I.e., in a stack, the last element that was inserted must always be the first one to be removed. 
 
 
 
@@ -26,6 +26,8 @@
 
 - Return the value of the top item in a stack without removing it.
 
+
+![](stack.png)
 
 ## Implementing a Stack Using a Linked List
 
