@@ -26,13 +26,17 @@
 e.g.
 
 `                            tail`
+
 `                            |`
+
 `head -> 1 next -> 3 next -> 5 next -> None`
 
 `enqueue(7) # Add 7`
 
 `                                      tail`
+
 `                                      |`
+
 `head -> 1 next -> 3 next -> 5 next -> 7 next -> None`
 
 `dequeue() # Remove 1` 
