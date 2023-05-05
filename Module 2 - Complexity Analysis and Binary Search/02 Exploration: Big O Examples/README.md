@@ -1,5 +1,6 @@
 # Exploration: Big O Examples
 
+
 ## $\mathcal{O}(1)$ - Constant Complexity
 
 To identify code that runs in $\mathcal{O}(1)$ time complexity look for code that:
@@ -39,7 +40,7 @@ def split_in_two(i):
         i = i/2
 ```
 
-## $\mathcal{O}(\sqrt(n))$ - Fractional Power Complexity (= $\mathcal{O}(n^c)$, $0 < c < 1$)
+## $\mathcal{O}(\sqrt(n))$ (= $\mathcal{O}(n^c)$, $0 < c < 1$) - Fractional Power Complexity 
 
 To identify code that runs in $\mathcal{O}(\sqrt(n))$ time complexity look for code that:
 
@@ -102,6 +103,32 @@ To identify code that runs in $\mathcal{O}(n^2)$ time complexity look for code t
 
 - Has nested $\mathcal{O}(n)$ loops, assuming the code in the innermost loop runs in constant time
 
+e.g. 
+
+```{}
+def bubble(arr):
+    l = len(arr)        
+    for a in range(l):
+        for b in range(l-1):
+            if (arr[a] < arr[b]):
+                arr[a], arr[b] = arr[b], arr[a]
+    return arr 
+```
+
+
+e.g. 
+
+```{}
+for i in range(n):
+  for j in range(i):
+   ...
+```
+
+Note. 
+
+$$
+0 + 1 + ... + (n - 1) = \sum_{i=0}^{n - 1} i = \frac{n (n - 1)} {2} = \frac{1}{2} n^2 - \frac{1}{2} n.
+$$
 
 ## $\mathcal{O}(2^n)$ - Exponential Complexity
 

@@ -1,5 +1,7 @@
 # Exploration/ Big O Notation
 
+[Next]()
+
 ## Introduction 
 
 ## Big O Notation 
@@ -41,5 +43,4 @@ $\mathcal{O}(n!)$ - Factorial Complexity
 ## Additional Notes 
 
 [Table of common time complexities](https://en.wikipedia.org/wiki/Time_complexity#Table_of_common_time_complexities)
-
 
