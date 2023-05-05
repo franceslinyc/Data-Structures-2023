@@ -27,7 +27,7 @@
 - It's a linear (i.e. sequential) search.
 
 
-### 2. Get by Index
+### 2. Get by Index (Worse vs. Arrays)
 
 - This is the same as get by value, except we just advance n times where n is the index we are looking for. 
 
