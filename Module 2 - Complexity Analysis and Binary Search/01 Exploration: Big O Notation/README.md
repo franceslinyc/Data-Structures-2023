@@ -12,13 +12,21 @@ $\mathcal{O}(\log(\log(n)))$ - Log-logarithmic Complexity
 
 $\mathcal{O}(\log(n))$ - Logarithmic Complexity
 
+e.g. $\log(n)$, $\log(n^2)$
+
 $\text{poly}(\log(n))$ - Polylogarithmic Complexity 
 
 e.g. ${(\log(n))}^2$
 
 $\mathcal{O}(\sqrt(n))$ - Fractional Power Complexity
 
+$\mathcal{O}(n^c)$ - Factional Power Complexity, $0 < c < 1$ 
+
+e.g. $n^{\frac{1} {2}}$, $n^{\frac{2} {3}}$
+
 $\mathcal{O}(n)$ - Linear Complexity
+
+e.g. $n$, $2 n + 5$
 
 $\mathcal{O}(n \log(n))$ - Log-Linear or Linearithmic Complexity
 
