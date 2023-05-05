@@ -29,6 +29,7 @@
 
 ![](stack.png)
 
+
 ## Implementing a Stack Using a Linked List
 
 - We can implement a stack using a singly linked list, where the head of the list corresponds to the top of the stack.
@@ -69,5 +70,6 @@ Return `[2 4 8 16 32]`
 `pop() # remove 32` 
  
 Return `[2 4 8 16]`
+
 
 

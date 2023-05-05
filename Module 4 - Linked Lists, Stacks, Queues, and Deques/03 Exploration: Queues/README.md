@@ -18,21 +18,54 @@
 - Remove the first item in the queue and returns its value. The item behind it is now at the front of the queue. 
 
 
-
 ![](queue.png)
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Implementing a Queue Using a Linked List
 
+e.g.
+
+`                            tail`
+`                            |`
+`head -> 1 next -> 3 next -> 5 next -> None`
+
+`enqueue(7) # Add 7`
+
+`                                      tail`
+`                                      |`
+`head -> 1 next -> 3 next -> 5 next -> 7 next -> None`
+
+`dequeue() # Remove 1` 
+
+`head -> 3 next -> 5 next -> 7 next -> None`
+
+`dequeue() # Remove 3`
+
+`head -> 5 next -> 7 next -> None`
+
+
 ## Implementing a Queue Using a Dynamic Array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
