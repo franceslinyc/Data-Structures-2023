@@ -103,6 +103,8 @@ To identify code that runs in $\mathcal{O}(n^2)$ time complexity look for code t
 
 - Has nested $\mathcal{O}(n)$ loops, assuming the code in the innermost loop runs in constant time
 
+- e.g. bubble sort, insertion sort 
+
 e.g. 
 
 ```{}
@@ -126,16 +128,34 @@ for i in range(n):
 
 Note. 
 
-$$
-0 + 1 + ... + (n - 1) = \sum_{i=0}^{n - 1} i = \frac{n (n - 1)} {2} = \frac{1}{2} n^2 - \frac{1}{2} n.
-$$
+$0 + 1 + ... + (n - 1) = \sum_{i=0}^{n - 1} i = \frac{n (n - 1)} {2} = \frac{1}{2} n^2 - \frac{1}{2} n.$
 
-## $\mathcal{O}(2^n)$ - Exponential Complexity
+## $\mathcal{O}(2^n)$ $(= \mathcal{O}(2^{\text{poly}(n)}))$ - Exponential Complexity
+
+e.g. $2^n$, $2^{n^2}$
+
+To identify code that runs in $\mathcal{O}(2^n)$ time complexity look for code that: 
+
+- Has a recursive call which decrements a count by a constant factor and calls itself more than once 
+
+- Is typically implemented recursively 
+
+- e.g. matrix chain multiplication via brute-force search
+
+e.g.
+
+```{}
+def fibonacci(number):
+    if number == 0: return 0
+    elif number == 1:
+        return 1
+    else:
+        return fibonacci(number-1) + fibonacci(number-2)
+```
+
 
 ## $\mathcal{O}(n!)$ - Factorial Complexity
 
+- Is another class to stay away from if possible
 
-
-
-**To be continue 04/12/2023** 
-
+- e.g. traveling salesman problem via brute-force search

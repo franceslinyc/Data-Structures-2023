@@ -1,6 +1,5 @@
 # Exploration/ Big O Notation
 
-[Next]()
 
 ## Introduction 
 
@@ -20,7 +19,7 @@ $\text{poly}(\log(n))$ - Polylogarithmic Complexity
 
 e.g. ${(\log(n))}^2$
 
-$\mathcal{O}(n^c)$, $0 < c < 1$ - Factional Power Complexity
+$\mathcal{O}(\sqrt(n))$ (= $\mathcal{O}(n^c)$, $0 < c < 1$) - Factional Power Complexity
 
 e.g. $n^{\frac{1} {2}} = \sqrt(n)$, $n^{\frac{2} {3}}$
 
@@ -36,7 +35,9 @@ $\mathcal{O}(n^2)$ - Quadratic Complexity
 
 $\mathcal{O}(n^c)$ - Polynomial Complexity
 
-$\mathcal{O}(2^n)$ - Exponential Complexity
+$\mathcal{O}(2^n)$ $(= \mathcal{O}(2^{\text{poly}(n)}))$ - Exponential Complexity
+
+e.g. $2^n$, $2^{n^2}$
 
 $\mathcal{O}(n!)$ - Factorial Complexity
 
