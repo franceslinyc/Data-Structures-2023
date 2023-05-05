@@ -10,7 +10,12 @@ To identify code that runs in $\mathcal{O}(1)$ time complexity look for code tha
 
 - Does not call any functions which contain operations that scale with input size
 
+e.g.
 
+```{}
+def insert_at_n(l,n):
+    l[n] = "Hello"
+```
 
 ## $\mathcal{O}(\log(n))$ - Logarithmic Complexity
 
@@ -22,17 +27,38 @@ To identify code that runs in $\mathcal{O}(\log(n))$ time complexity look for co
 
 - Traverses once through a data structure that stores data in a branching hierarchy (like a binary tree)
 
-- e.g. binary search algorithm
+- Is most often seen when working with trees or when you are using binary search to find elements within a sorted list
 
+- e.g. binary search
 
-## $\mathcal{O}(\sqrt(n))$ - Fractional Power Complexity
+e.g. 
+
+```{}
+def split_in_two(i):
+    while i > 1:
+        i = i/2
+```
+
+## $\mathcal{O}(\sqrt(n))$ - Fractional Power Complexity (= $\mathcal{O}(n^c)$, $0 < c < 1$)
 
 To identify code that runs in $\mathcal{O}(\sqrt(n))$ time complexity look for code that:
 
 - Has a loop where the loop counts up to the square root of 
 
-- Each iteration takes $\mathcal{O}(1)$ time
+- Each iteration takes $\mathcal{O}(1)$ time 
 
+e.g. 
+
+```{}
+def is_prime(i):
+    k = 2
+    while k*k <= i:
+      if (i%k == 0):
+       return False
+      k = k + 1
+```
+
+Note. Even numbers are not prime except for 2, so odd numbers within the range $[2, \sqrt(n)]$. 
 
 ## $\mathcal{O}(n)$ - Linear Complexity
 
@@ -40,7 +66,7 @@ To identify code that runs in $\mathcal{O}(n)$ time complexity look for code tha
 
 - Contains a loop that does constant time work and is based directly on the input size
 
-- e.g. linear search algorithm
+- e.g. linear search 
 
 
 ## $\mathcal{O}(n \log(n))$ - Log-Linear or Linearithmic Complexity
@@ -52,6 +78,22 @@ To identify code that runs in $\mathcal{O}(n \log(n))$ time complexity look for 
 - Also has an inner loop or recursive call that follow the rules of $\mathcal{O}(\log(n))$ time complexity
 
 - Has an outer loop that is like an $\mathcal{O}(\log(n))$ function but then has an inner loop that loops on all the elements in the input
+
+- Is pretty common in things like sorts, but can be tricky because it often involves some recursion. 
+
+- Is typically some combination of a standard loop and another iteration that divides things in half.
+
+e.g. fastest possible comparison sort 
+
+e.g. 
+
+```{}
+def split_in_two(i):
+  for j in range (i):
+    k=i
+    while k > 1:
+        k = k/2
+```
 
 
 ## $\mathcal{O}(n^2)$ - Quadratic Complexity

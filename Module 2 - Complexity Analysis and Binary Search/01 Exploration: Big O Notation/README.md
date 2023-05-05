@@ -18,7 +18,7 @@ $\text{poly}(\log(n))$ - Polylogarithmic Complexity
 
 e.g. ${(\log(n))}^2$
 
-$\mathcal{O}(n^c)$ - Factional Power Complexity, $0 < c < 1$ 
+$\mathcal{O}(n^c)$, $0 < c < 1$ - Factional Power Complexity
 
 e.g. $n^{\frac{1} {2}} = \sqrt(n)$, $n^{\frac{2} {3}}$
 

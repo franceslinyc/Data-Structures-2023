@@ -5,7 +5,7 @@ Programming assignments for CS261 Data Structures at OSU
 
 Assignment 1: 
 
-[Python Fundamentals Review]()
+[Python Fundamentals Review (Code Hidden): 100 / 100]()
 
 Assignment 2: 
 
@@ -67,3 +67,9 @@ HashMap (Portfolio Assigment)
 
 
 
+
+
+
+## References 
+
+Data Structures CS 261, Oregon State University 
