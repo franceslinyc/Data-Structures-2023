@@ -42,6 +42,8 @@ HashMap (Portfolio Assigment)
 - [03 Exploration/ Binary Search](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%202%20-%20Complexity%20Analysis%20and%20Binary%20Search/03%20Exploration:%20Binary%20Search)
 
 
+
+
 ## Module 3 Dynamic Arrays, Amortized Analysis
 
 - 01 Exploration/ Python’s List
@@ -55,6 +57,8 @@ HashMap (Portfolio Assigment)
 - 05 Exploration/ Encapsulation and Iterators
 
 
+
+
 ## Module 4 Linked Lists, Stacks, Queues, and Deques
 
 - 01 Exploration/ Introduction to Linked Lists
@@ -66,6 +70,15 @@ HashMap (Portfolio Assigment)
 - 04 Exploration/ Deques
 
 
+
+
+## Module 5 Trees, Especially Binary Search Trees
+
+- 01 Exploration/ Trees
+
+- 02 Exploration/ Binary Trees
+
+- 03 Exploration/ BST Operations 
 
 
 
