@@ -75,7 +75,7 @@ HashMap (Portfolio Assigment)
 
 - [01 Exploration/ Introduction to Linked Lists](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%204%20-%20Linked%20Lists%2C%20Stacks%2C%20Queues%2C%20and%20Deques/01%20Exploration:%20Introduction%20to%20Linked%20Lists)
 
-- 02 Exploration/ Stacks
+- [02 Exploration/ Stacks](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%204%20-%20Linked%20Lists%2C%20Stacks%2C%20Queues%2C%20and%20Deques/02%20Exploration:%20Stacks)
 
 - 03 Exploration/ Queues
 
