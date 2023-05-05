@@ -15,6 +15,18 @@ Assignment 3:
 
 Linked List and ADT Implementation
 
+insert_front() in $\mathcal{O}(1)$
+
+insert_back() in $\mathcal{O}(n)$
+
+insert_at_index() in $\mathcal{O}(n)$
+
+remove_at_index() in $\mathcal{O}(n)$
+
+remove() in $\mathcal{O}(n)$
+
+etc. 
+
 Assignment 4: 
 
 BST/AVL Tree Implementation
@@ -61,7 +73,7 @@ HashMap (Portfolio Assigment)
 
 ## Module 4 Linked Lists, Stacks, Queues, and Deques
 
-- 01 Exploration/ Introduction to Linked Lists
+- [01 Exploration/ Introduction to Linked Lists](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%204%20-%20Linked%20Lists%2C%20Stacks%2C%20Queues%2C%20and%20Deques/01%20Exploration:%20Introduction%20to%20Linked%20Lists)
 
 - 02 Exploration/ Stacks
 
