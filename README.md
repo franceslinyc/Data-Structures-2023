@@ -15,15 +15,15 @@ Assignment 3:
 
 Linked List and ADT Implementation
 
-insert_front() in $\mathcal{O}(1)$
+`insert_front()` in $\mathcal{O}(1)$
 
-insert_back() in $\mathcal{O}(n)$
+`insert_back()` in $\mathcal{O}(n)$
 
-insert_at_index() in $\mathcal{O}(n)$
+`insert_at_index()` in $\mathcal{O}(n)$
 
-remove_at_index() in $\mathcal{O}(n)$
+`remove_at_index()` in $\mathcal{O}(n)$
 
-remove() in $\mathcal{O}(n)$
+`remove()` in $\mathcal{O}(n)$
 
 etc. 
 
