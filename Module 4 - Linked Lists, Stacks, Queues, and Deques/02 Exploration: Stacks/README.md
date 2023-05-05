@@ -33,7 +33,7 @@
 
 e.g.
 
-Return `head -> 4 next -> 2 next -> None`
+Start with `head -> 4 next -> 2 next -> None`
 
 `push(8)`
 
@@ -54,7 +54,7 @@ Return `head -> 2 next -> None`
 
 e.g. 
 
-Return `[2 4]`
+Start with `[2 4]`
 
 `push(8)`
 
