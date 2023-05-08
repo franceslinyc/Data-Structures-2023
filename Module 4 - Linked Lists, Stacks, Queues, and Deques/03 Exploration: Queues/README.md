@@ -68,6 +68,18 @@ end is 7
 
 ## Implementing a Queue Using a Dynamic Array
 
+- If we remove the first item from the underlying array when we dequeue, we will need to shift each remaining item forward. However, this would mean that each dequeue operation will have $\mathcal{O}(n)$ runtime complexity, which is undesirable.
 
+### wraparound via circular buffer
 
+- Instead, we’ll allow the values to wrap around back to the beginning of the array. (i.e. "wraparound")
+
+- An array like this, in which we allow data to wrap around from the back to the front, is known as a **circular buffer**.  
+### Resizing
+
+- When we resize our queue’s underlying physical array, we will take the opportunity to reindex the array so that the start of the queue once again corresponds to the physical index 0. 
+
+- To do this, we loop through the incumbent array beginning at the start index (using the increment logic described above), while copying values to the new array starting at index 0.
+
+![](resizing.png)
 
