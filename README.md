@@ -15,6 +15,12 @@ Assignment 2:
 
 [List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf)
 
+Bag ADT
+
+- `add()` in amortized $\mathcal{O}(1)$
+
+- `remove()` in $\mathcal{O}(n)$
+
 Assignment 3: 
 
 [\[File hidden\] Linked List and ADT Implementation: / 100]()
@@ -30,6 +36,8 @@ Assignment 3:
 - `remove_at_index()` in $\mathcal{O}(n)$
 
 - `remove()` in $\mathcal{O}(n)$
+
+- `find` in $\mathcal{O}(n)$
 
 etc. 
 
