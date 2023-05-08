@@ -118,7 +118,7 @@ HashMap (Portfolio Assigment)
 
 - [02 Exploration/ Dynamic Arrays](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%203%20-%20Dynamic%20Arrays%2C%20Amortized%20Analysis/02%20Exploration%3A%20Dynamic%20Arrays)
 
-- 03 Exploration/ Amortized Analysis
+- 03 Exploration/ Amortized Analysis (e.g. insertion)
 
 - [04 Exploration/ An Overview of the Bag ADT](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%203%20-%20Dynamic%20Arrays%2C%20Amortized%20Analysis/04%20Exploration%3A%20An%20Overview%20of%20the%20Bag%20ADT)
 
