@@ -9,23 +9,55 @@ Assignment 1:
 
 Assignment 2: 
 
-Dynamic Array and ADT Implementation
+[Dynamic Array and ADT Implementation (Code Hidden): 100 / 100]()
 
 Assignment 3: 
 
-Linked List and ADT Implementation
+[Linked List and ADT Implementation (Code Hidden): / 100]()
 
-`insert_front()` in $\mathcal{O}(1)$
+- `insert_front()` in $\mathcal{O}(1)$
 
-`insert_back()` in $\mathcal{O}(n)$
+- `insert_back()` in $\mathcal{O}(n)$
 
-`insert_at_index()` in $\mathcal{O}(n)$
+- `insert_at_index()` in $\mathcal{O}(n)$
 
-`remove_at_index()` in $\mathcal{O}(n)$
+- `remove_at_index()` in $\mathcal{O}(n)$
 
-`remove()` in $\mathcal{O}(n)$
+- `remove()` in $\mathcal{O}(n)$
 
 etc. 
+
+Stack ADT as Dynamic Array
+
+- `push()` in amortized $\mathcal{O}(1)$
+
+- `pop()` in amortized $\mathcal{O}(1)$
+
+- `top()` in $\mathcal{O}(1)$
+
+Stack ADT as Linked Nodes
+
+- `push()` in $\mathcal{O}(1)$
+
+- `pop()` in $\mathcal{O}(1)$
+
+- `top()` in $\mathcal{O}(1)$
+
+Queue ADT as Static Array
+
+- `enqueue()` in amortized $\mathcal{O}(1)$
+
+- `dequeue()` in $\mathcal{O}(1)$
+
+- `front()` in $\mathcal{O}(1)$
+
+Queue ADT as Linked Nodes
+
+- `enqueue()` $\mathcal{O}(1)$
+
+- `dequeue()` $\mathcal{O}(1)$
+
+- `front()` $\mathcal{O}(1)$
 
 Assignment 4: 
 
