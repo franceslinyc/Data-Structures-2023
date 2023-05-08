@@ -70,9 +70,9 @@ end is 7
 
 - If we remove the first item from the underlying array when we dequeue, we will need to shift each remaining item forward. However, this would mean that each dequeue operation will have $\mathcal{O}(n)$ runtime complexity, which is undesirable.
 
-### wraparound via circular buffer
+### Wraparound via circular buffer
 
-- Instead, we’ll allow the values to wrap around back to the beginning of the array. (i.e. "wraparound")
+- Instead, we’ll allow the values to wrap around back to the beginning of the array. (i.e. **"wraparound"**)
 
 - An array like this, in which we allow data to wrap around from the back to the front, is known as a **circular buffer**.  
 ### Resizing
