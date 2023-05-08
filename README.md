@@ -7,13 +7,19 @@ Assignment 1:
 
 [\[File hidden\] Python Fundamentals Review: 100 / 100]()
 
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
+
 Assignment 2: 
 
 [\[File hidden\] Dynamic Array and ADT Implementation: 100 / 100]()
 
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf)
+
 Assignment 3: 
 
 [\[File hidden\] Linked List and ADT Implementation: / 100]()
+
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
 - `insert_front()` in $\mathcal{O}(1)$
 
