@@ -23,6 +23,13 @@ Support
 
 - ......
 
+
+### Why do we use sentinels like this (front and back sentinels) when implementing a deque on top of a linked list?
+
+- eliminate the need to implement different functionality in the deque’s insertion operations, and different functionality in its removal operations.
+
+- simplify implementation, factoring four operations down to just two methods: `add_node_before()` and `remove_node()`.
+
 ## Review
 
 As Dynamic Array
