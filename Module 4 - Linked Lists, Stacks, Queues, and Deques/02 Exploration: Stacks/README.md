@@ -1,5 +1,7 @@
 # Stacks (last in, first out (or LIFO))
 
+- Add and remove at one end. (i.e., Add from top and remove from top.)
+
 ## Introduction 
 
 - Stacks function much like a stack of pancakes (or a stack of papers, but pancakes are tastier). As the developers finish their pancakes, they refill their plates with the fresh, hot pancakes from the top of the stack. The last pancake added to the stack is the first one consumed. 
@@ -38,17 +40,25 @@ e.g.
 
 Start with `head -> 4 next -> 2 next -> None`
 
+"top" is 4
+
 `push(8)`
 
 Return `head -> 8 next -> 4 next -> 2 next -> None`
+
+"top" is 8
 
 `pop() # remove 8` 
 
 Return `head -> 4 next -> 2 next -> None`
 
+"top" is 4
+
 `pop() # remove 4` 
 
 Return `head -> 2 next -> None`
+
+"top" is 2
 
 
 ## Implementing a Stack Using a Dynamic Array
@@ -59,17 +69,23 @@ e.g.
 
 Start with `[2 4]`
 
+"top" is 4
+
 `push(8)`
 
 Return `[2 4 8]`
+
+"top" is 8
 
 `push(16)` and `push(32)` (in this order)
 
 Return `[2 4 8 16 32]`
 
+"top" is 32
+
 `pop() # remove 32` 
  
 Return `[2 4 8 16]`
 
-
+"top" is 16
 

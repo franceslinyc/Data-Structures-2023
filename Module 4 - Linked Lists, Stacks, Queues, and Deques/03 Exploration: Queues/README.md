@@ -1,5 +1,7 @@
 # Queues (first in, first out (or FIFO))
 
+- Add and remove at both ends. (I.e. Add from end and remove from front.)
+
 ## Queue Operations
 
 - A queue is a data structure that imposes a **first in, first out (or FIFO)** ordering on the elements it stores.
@@ -31,6 +33,10 @@ e.g.
 
 `head -> 1 next -> 3 next -> 5 next -> None`
 
+front is 1
+
+end is 5
+
 `enqueue(7) # Add 7`
 
 `                                      tail`
@@ -39,13 +45,25 @@ e.g.
 
 `head -> 1 next -> 3 next -> 5 next -> 7 next -> None`
 
+front is 1
+
+end is 7
+
 `dequeue() # Remove 1` 
 
 `head -> 3 next -> 5 next -> 7 next -> None`
 
+front is 3
+
+end is 7
+
 `dequeue() # Remove 3`
 
 `head -> 5 next -> 7 next -> None`
+
+front is 5
+
+end is 7
 
 
 ## Implementing a Queue Using a Dynamic Array
