@@ -15,11 +15,21 @@ Assignment 2:
 
 [List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf)
 
-Bag ADT
+- `insert_at_index()` in worst case $\mathcal{O}(n)$ (resize)
+
+- `remove_at_index()` in best case $\mathcal{O}(1)$ (remove last element)
+
+etc.
+
+Bag ADT (order of insertion is irrelevant)
 
 - `add()` in amortized $\mathcal{O}(1)$
 
 - `remove()` in $\mathcal{O}(n)$
+
+- `find` in $\mathcal{O}(n)$
+
+etc.
 
 Assignment 3: 
 
@@ -41,7 +51,7 @@ Assignment 3:
 
 etc. 
 
-Stack ADT as Dynamic Array
+Stack ADT as Dynamic Array 
 
 - `push()` in amortized $\mathcal{O}(1)$
 
