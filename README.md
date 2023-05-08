@@ -112,7 +112,7 @@ HashMap (Portfolio Assigment)
 - [03 Exploration/ Queues](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%204%20-%20Linked%20Lists%2C%20Stacks%2C%20Queues%2C%20and%20Deques/03%20Exploration:%20Queues)
 
 
-- 04 Exploration/ Deques
+- [04 Exploration/ Deques](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%204%20-%20Linked%20Lists%2C%20Stacks%2C%20Queues%2C%20and%20Deques/04%20Exploration:%20Deques)
 
 
 
