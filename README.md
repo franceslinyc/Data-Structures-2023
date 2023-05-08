@@ -3,17 +3,19 @@ Programming assignments for CS261 Data Structures at OSU
 
 ## Assignments
 
+**Solutions are removed.**
+
 Assignment 1: 
 
-[\[File hidden\] Python Fundamentals Review: 100 / 100]()
+[Python Fundamentals Review: 100 / 100]()
 
 Assignment 2: 
 
-[\[File hidden\] Dynamic Array and ADT Implementation: 100 / 100]()
+[Dynamic Array and ADT Implementation: 100 / 100]()
 
 Assignment 3: 
 
-[\[File hidden\] Linked List and ADT Implementation: / 100]()
+[Linked List and ADT Implementation: / 100]()
 
 - `insert_front()` in $\mathcal{O}(1)$
 
