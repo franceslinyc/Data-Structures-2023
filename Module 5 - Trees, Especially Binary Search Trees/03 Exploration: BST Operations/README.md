@@ -106,20 +106,22 @@ e.g.
 
 ![](remove.png)
 
-Remove 20
+Remove 20 $n = 20$
 
-1. Move 21 up 
+1. Move 21 up $s = 21$
 
-2. Move 22 to 23's left 
+2. 18 becomes 21's left child 
+
+3. 25 becomes 21's right child
+
+4. Move 22 to 23's left 
 
 
 ## The runtime complexities of BST operations
 
 - The total amount of work done searching in all three of these operations is $\mathcal{O}(h)$, where $h$, again, is the height of the tree.
 
-- Each of these three operations (find, insert, and remove) has a runtime complexity of $\mathcal{O}(h)$.
+- Each of these three operations (`find`, `insert`, and `remove`) has a runtime complexity of $\mathcal{O}(h)$.
 
 - Explore strategies for limiting the height of a BST to be close to $\log(n)$, which will improve the runtimes of the main BST operations to $\mathcal{O}(\log(n))$ later.
-
-
 
