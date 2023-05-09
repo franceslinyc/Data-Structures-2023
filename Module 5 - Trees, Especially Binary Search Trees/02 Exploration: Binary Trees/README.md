@@ -7,11 +7,11 @@
 
 ## Types/States of Binary Trees
 
-**full binary tree** 
+**Full binary tree** 
 
 - is a binary tree in which every node has exactly two child nodes or zero child nodes (i.e. a leaf). 
 
-**perfect binary tree** 
+**Perfect binary tree** 
 
 - is a full binary tree (i.e., one where all interior nodes have two children) where all the leaves are at the same depth. 
 
@@ -23,7 +23,7 @@ If we know a **perfect binary tree** has height $h$, then we know:
 
 If we know that a **perfect binary tree** has $n$ nodes, then we know its height is approximately $\log(n)$. 
 
-**complete binary tree** 
+**Complete binary tree** 
 
 - is a binary tree that is perfect except for the deepest level, where all the nodes are all as far left as possible. 
 
