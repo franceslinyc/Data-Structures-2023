@@ -63,7 +63,7 @@ Insert 40, for example
 
 `2 10 17 30 32 64 72 73 75 77 90`
 
-Remove 64 
+Remove 64, for example  
 
 1. Find 64's inorder successor $s$, which is 72, since 72 comes after 64. 
 
@@ -106,9 +106,9 @@ e.g.
 
 ![](remove.png)
 
-Remove 20 $n = 20$
+Remove 20 $(n = 20)$, for example 
 
-1. Move 21 up $s = 21$
+1. Move 21 up $(s = 21)$
 
 2. 18 becomes 21's left child 
 
