@@ -7,9 +7,13 @@
 
 ## Types/States of Binary Trees
 
-- A **full binary tree** is a binary tree in which every node has exactly two child nodes or zero child nodes (i.e. a leaf). 
+**full binary tree** 
 
-- A **perfect binary tree** is a full binary tree (i.e., one where all interior nodes have two children) where all the leaves are at the same depth. 
+- is a binary tree in which every node has exactly two child nodes or zero child nodes (i.e. a leaf). 
+
+**perfect binary tree** 
+
+- is a full binary tree (i.e., one where all interior nodes have two children) where all the leaves are at the same depth. 
 
 If we know a **perfect binary tree** has height $h$, then we know: 
 
@@ -19,7 +23,9 @@ If we know a **perfect binary tree** has height $h$, then we know:
 
 If we know that a **perfect binary tree** has $n$ nodes, then we know its height is approximately $\log(n)$. 
 
-- A **complete binary tree** is a binary tree that is perfect except for the deepest level, where all the nodes are all as far left as possible. 
+**complete binary tree** 
+
+- is a binary tree that is perfect except for the deepest level, where all the nodes are all as far left as possible. 
 
 
 ## Binary Search Trees
@@ -42,7 +48,6 @@ There are two high-level types of tree traversal:
 - A breadth-first traversal moves as far across the tree as it can go before moving down in the tree. 
 
 ## Depth First Traversal
-
 
 **Preorder traversal** 
 
@@ -70,8 +75,6 @@ Preorder traversal (node first, left and right)
 
 Inorder traversal (left first, node, and right)
 
-
-
 `16 32 48 56 64 72 80 84 88 96`
 
 Post order traversal (left first, right, and node)
@@ -88,12 +91,12 @@ inOrder(n):
         inOrder(n.right)
 ```
 
+
 ## Breadth First Search
 
 Level-order traversal 
 
 `64 32 80 16 48 72 88 56 84 96`
-
 
 e.g. (werid!)
 
