@@ -145,7 +145,7 @@ HashMap (Portfolio Assigment)
 
 - 01 Exploration/ Trees
 
-- 02 Exploration/ Binary Trees
+- [02 Exploration/ Binary Trees](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%205%20-%20Trees%2C%20Especially%20Binary%20Search%20Trees/02%20Exploration%3A%20Binary%20Trees)
 
 - 03 Exploration/ BST Operations 
 

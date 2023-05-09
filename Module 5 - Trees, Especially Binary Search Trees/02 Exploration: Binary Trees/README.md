@@ -33,11 +33,36 @@ If we know that a **perfect binary tree** has $n$ nodes, then we know its height
 
 There are two high-level types of tree traversal:
 
-- **Depth-first** A depth-first traversal moves as far downward in the tree as it can go before moving across in the tree.
+**Depth-first** 
 
-- **Breadth-first** A breadth-first traversal moves as far across the tree as it can go before moving down in the tree. 
+- A depth-first traversal moves as far downward in the tree as it can go before moving across in the tree.
+
+**Breadth-first** 
+
+- A breadth-first traversal moves as far across the tree as it can go before moving down in the tree. 
 
 ## Depth First Traversal
+
+
+**Preorder traversal** 
+
+- NLR – process the current node before traversing either of its subtrees
+
+**Inorder traversal**
+
+- LNR – traverse the current node’s left subtree before processing the node itself, and then traverse the node’s right subtree
+
+**Postorder traversal** 
+
+- LRN – traverse both of the current node’s subtrees (left, then right) before processing the node itself
+
+e.g. 
+
+![](BST.png)
+
+
+
+
 
 ## Breadth First Search
 
