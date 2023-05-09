@@ -52,6 +52,10 @@ There are two high-level types of tree traversal:
 
 - LNR – traverse the current node’s left subtree before processing the node itself, and then traverse the node’s right subtree
 
+- sorted order 
+
+- most common 
+
 **Postorder traversal** 
 
 - LRN – traverse both of the current node’s subtrees (left, then right) before processing the node itself
@@ -60,14 +64,48 @@ e.g.
 
 ![](BST.png)
 
+Preorder traversal (node first, left and right)
+
+`64 32 16 48 56 80 72 88 84 96`
+
+Inorder traversal (left first, node, and right)
 
 
 
+`16 32 48 56 64 72 80 84 88 96`
+
+Post order traversal (left first, right, and node)
+
+`16 56 48 32 72 84 96 88 80 64`
+
+e.g. 
+
+```{}
+inOrder(n):
+    if n is not NULL:
+        inOrder(n.left)
+        process n
+        inOrder(n.right)
+```
 
 ## Breadth First Search
 
+Level-order traversal 
+
+`64 32 80 16 48 72 88 56 84 96`
 
 
+e.g. (werid!)
 
-
+```{}
+levelOrder(bst):
+    q ← new, empty queue
+    enqueue(q, bst.root)
+    while q is not empty:
+        n ← dequeue(q)
+        if n is not NULL:
+            process n
+            enqueue(q, n.left)
+            enqueue(q, n.right)
+```
 
