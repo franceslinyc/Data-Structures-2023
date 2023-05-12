@@ -3,17 +3,17 @@ Programming assignments for CS261 Data Structures at OSU
 
 ## Assignments
 
-Assignment 1: 
+[Assignment 1: Python Fundamentals Review](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
 
-[\[File hidden\] Python Fundamentals Review: 100 / 100]()
+[\[File hidden\]: 100 / 100]()
 
-[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
+List of Functions
 
-Assignment 2: 
+[Assignment 2: Dynamic Array and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf) 
 
-[\[File hidden\] Dynamic Array and ADT Implementation: 100 / 100]()
+[\[File hidden\] 100 / 100]()
 
-[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf)
+List of Functions
 
 - `insert_at_index()` in worst case $\mathcal{O}(n)$ (resize)
 
