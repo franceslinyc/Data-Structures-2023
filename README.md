@@ -9,9 +9,9 @@ Programming assignments for CS261 Data Structures at OSU
 
 List of Functions
 
-[Assignment 2: Dynamic Array and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf) 
+## [Assignment 2: Dynamic Array and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf) 
 
-[\[File hidden\] 100 / 100]()
+[\[File hidden\]: 100 / 100]()
 
 List of Functions
 
@@ -31,11 +31,11 @@ Bag ADT (order of insertion is irrelevant)
 
 etc.
 
-Assignment 3: 
+## [Assignment 3: Linked List and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
-[\[File hidden\] Linked List and ADT Implementation: / 100]()
+[\[File hidden\]: / 100]()
 
-[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
+List of Functions
 
 - `insert_front()` in $\mathcal{O}(1)$
 
@@ -83,17 +83,16 @@ Queue ADT as Linked Nodes
 
 - `front()` $\mathcal{O}(1)$
 
-Assignment 4: 
+## Assignment 4: BST/AVL Tree Implementation
 
-BST/AVL Tree Implementation
 
-Assignment 5: 
 
-MinHeap Implementation
+## Assignment 5: MinHeap Implementation
 
-Assignment 6: 
+## Assignment 6: HashMap (Portfolio Assigment)
 
-HashMap (Portfolio Assigment)
+
+
 
 ## Notes
 
