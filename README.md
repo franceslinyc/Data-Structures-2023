@@ -15,6 +15,10 @@ List of Functions
 
 List of Functions
 
+- `resize()`
+
+- `append()`
+
 - `insert_at_index()` in worst case $\mathcal{O}(n)$ (resize)
 
 - `remove_at_index()` in best case $\mathcal{O}(1)$ (remove last element)
