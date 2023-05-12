@@ -3,7 +3,7 @@ Programming assignments for CS261 Data Structures at OSU
 
 ## Assignments
 
-[Assignment 1: Python Fundamentals Review](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
+## [Assignment 1: Python Fundamentals Review](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
 
 [\[File hidden\]: 100 / 100]()
 
