@@ -150,6 +150,24 @@ HashMap (Portfolio Assigment)
 - [03 Exploration/ BST Operations](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%205%20-%20Trees%2C%20Especially%20Binary%20Search%20Trees/03%20Exploration%3A%20BST%20Operations) 
 
 
+
+
+## Module 6 - AVL Trees
+
+- 01 Exploration/ AVL Trees and Balancing
+
+- 02 Exploration/ AVL Tree Rotations
+
+- 03 Exploration/ Rotation Mechanics
+
+- 04 Exploration/ Rotation Implementation
+
+
+
+
 ## References 
 
 Data Structures CS 261, Oregon State University 
+
+
+
