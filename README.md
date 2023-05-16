@@ -159,7 +159,7 @@ Queue ADT as Linked Nodes
 
 - [01 Exploration/ AVL Trees and Balancing](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%206%20-%20AVL%20Trees/01%20Exploration%3A%20AVL%20Trees%20and%20Balancing)
 
-- 02 Exploration/ AVL Tree Rotations
+- [02 Exploration/ AVL Tree Rotations](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%206%20-%20AVL%20Trees/02%20Exploration%3A%20AVL%20Tree%20Rotations)
 
 - 03 Exploration/ Rotation Mechanics
 
