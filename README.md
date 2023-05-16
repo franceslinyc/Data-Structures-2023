@@ -37,7 +37,7 @@ etc.
 
 ## [Assignment 3: Linked List and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
-[\[File hidden\]: 91 / 100]() (Missed point for time complexity)
+[\[File hidden\]: 91 / 100]() (Missed point for time complexity for `slice()`)
 
 List of Functions
 
@@ -171,8 +171,6 @@ Queue ADT as Linked Nodes
 - 01 Exploration/ Priority Queues and Heaps
 
 - 02 Exploration/ Heap Implementation
-
-
 
 
 ## References 
