@@ -8,6 +8,7 @@
 
 Four cases to handle
 
+| ------------- | ------------- |
 | L-L | single rotation (right) |
 | L-R | double rotation (left, then right) |
 | R-L | double rotation (right, then left)  |
