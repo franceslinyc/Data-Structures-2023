@@ -166,6 +166,13 @@ Queue ADT as Linked Nodes
 - 04 Exploration/ Rotation Implementation
 
 
+## Module 7 - Heap and Heap Sort
+
+- 01 Exploration/ Priority Queues and Heaps
+
+- 02 Exploration/ Heap Implementation
+
+
 
 
 ## References 
