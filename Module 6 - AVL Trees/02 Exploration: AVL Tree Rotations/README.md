@@ -6,14 +6,21 @@
 
 ## Determining the Rotations Needed
 
+- If N has a balance factor of $–2$, this means N is left-heavy. If N has a balance factor of $2$, this means N is right-heavy. 
+
+- Refer to the *heavier* of N’s children as C. 
+
+- If C has a balance factor of $–1$, this means C is left-heavy. If C has a balance factor of $1$, this means C is right-heavy.
+
 Four cases to handle
 
-| cases | do | 
-| ------------- | ------------- |
-| L-L | single rotation (right) |
-| L-R | double rotation (left, then right) |
-| R-L | double rotation (right, then left)  |
-| R-R | single rotation (left) |
+| cases | do | confirm? |
+| ------------- | ------------- | ------------- |
+| L-L | single rotation (right) | (-2, -1) |
+| R-R | single rotation (left) | (2, 1) |
+| L-R | double rotation (left, then right) | (-2, 1) |
+| R-L | double rotation (right, then left)  | (2, -1) |
+
 
 Single rotation
 
