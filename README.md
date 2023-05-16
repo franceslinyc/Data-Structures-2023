@@ -37,7 +37,7 @@ etc.
 
 ## [Assignment 3: Linked List and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
-[\[File hidden\]: / 100]()
+[\[File hidden\]: 91 / 100]() (Missed point for time complexity)
 
 List of Functions
 
