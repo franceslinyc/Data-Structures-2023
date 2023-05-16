@@ -16,13 +16,11 @@
 
 - A BST node's **balance factor** can be used to determine if a BST is height-balanced. 
 
-$$
-balanceFactor(N) = height(N.right) - height(N.left)
-$$
+`balanceFactor(N) = height(N.right) - height(N.left)`
 
-- If $$balanceFactor(N) < 0$$, the node is left-heavy.  
+- If `balanceFactor(N) < 0`, the node is left-heavy.  
 
-- If $$balanceFactor(N) > 0$$, the node is right-heavy.  
+- If `balanceFactor(N) > 0`, the node is right-heavy.  
 
 - If all nodes have a balance factor $-1, 0, 1$, then the tree is height-balanced. 
 
