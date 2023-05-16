@@ -39,4 +39,7 @@ double rotation
 
 ![](double.png)
 
+![](rotate.png)
+
+- edge case: root node 
 
