@@ -37,7 +37,7 @@ etc.
 
 ## [Assignment 3: Linked List and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
-[\[File hidden\]: 91 / 100]() (Missed point for time complexity for `slice()`)
+[\[File hidden\]: 91 / 100]() (Lost point for time complexity for `slice()`)
 
 List of Functions
 
@@ -87,15 +87,23 @@ Queue ADT as Linked Nodes
 
 - `front()` $\mathcal{O}(1)$
 
-## Assignment 4: BST/AVL Tree Implementation
+## [Assignment 4: BST/AVL Tree Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
 
+[\[File hidden\]:  / 120]()
 
+List of Functions
 
 ## Assignment 5: MinHeap Implementation
 
+[\[File hidden\]:  / 120]()
+
+List of Functions
+
 ## Assignment 6: HashMap (Portfolio Assigment)
 
+[\[File hidden\]:  / 140]()
 
+List of Functions
 
 
 ## Notes
