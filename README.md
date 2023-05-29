@@ -89,7 +89,7 @@ Queue ADT as Linked Nodes
 
 ## [Assignment 4: BST/AVL Tree Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
 
-[\[File hidden\]:  / 120]()
+[\[File hidden\]: 110 / 120]()
 
 List of Functions
 
@@ -179,6 +179,12 @@ List of Functions
 - 01 Exploration/ Priority Queues and Heaps
 
 - 02 Exploration/ Heap Implementation
+
+## Module 8 - Hash Maps
+ 
+- 01 Exploration/ Introduction to Maps and Hash Tables
+
+- 02 Exploration/ Hash Table Collisions
 
 
 ## References 
