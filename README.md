@@ -15,77 +15,11 @@ List of Functions
 
 List of Functions
 
-- `resize()`
-
-- `append()`
-
-- `insert_at_index()` in worst case $\mathcal{O}(n)$ (resize)
-
-- `remove_at_index()` in best case $\mathcal{O}(1)$ (remove last element)
-
-etc.
-
-Bag ADT (order of insertion is irrelevant)
-
-- `add()` in amortized $\mathcal{O}(1)$
-
-- `remove()` in $\mathcal{O}(n)$
-
-- `find` in $\mathcal{O}(n)$
-
-etc.
-
 ## [Assignment 3: Linked List and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
 [\[File hidden\]: 91 / 100]() (Lost point for time complexity for `slice()`)
 
 List of Functions
-
-- `insert_front()` in $\mathcal{O}(1)$
-
-- `insert_back()` in $\mathcal{O}(n)$
-
-- `insert_at_index()` in $\mathcal{O}(n)$
-
-- `remove_at_index()` in $\mathcal{O}(n)$
-
-- `remove()` in $\mathcal{O}(n)$
-
-- `find` in $\mathcal{O}(n)$
-
-etc. 
-
-Stack ADT as Dynamic Array 
-
-- `push()` in amortized $\mathcal{O}(1)$
-
-- `pop()` in amortized $\mathcal{O}(1)$
-
-- `top()` in $\mathcal{O}(1)$
-
-Stack ADT as Linked Nodes
-
-- `push()` in $\mathcal{O}(1)$
-
-- `pop()` in $\mathcal{O}(1)$
-
-- `top()` in $\mathcal{O}(1)$
-
-Queue ADT as Static Array
-
-- `enqueue()` in amortized $\mathcal{O}(1)$
-
-- `dequeue()` in $\mathcal{O}(1)$
-
-- `front()` in $\mathcal{O}(1)$
-
-Queue ADT as Linked Nodes
-
-- `enqueue()` $\mathcal{O}(1)$
-
-- `dequeue()` $\mathcal{O}(1)$
-
-- `front()` $\mathcal{O}(1)$
 
 ## [Assignment 4: BST/AVL Tree Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
 
