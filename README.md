@@ -124,7 +124,6 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 - 02 Exploration/ Hash Table Collisions
 
 
-
 ## Module 9 - Graphs, DFS/BFS, Dijkstra's 
 
 - 01 Exploration/ Graphs
