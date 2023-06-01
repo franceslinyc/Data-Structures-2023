@@ -27,7 +27,7 @@ List of Functions
 
 List of Functions
 
-## Assignment 5: MinHeap Implementation
+## [Assignment 5: MinHeap Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A5.pdf)
 
 [\[File hidden\]:  / 120]()
 
