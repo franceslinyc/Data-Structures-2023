@@ -1,9 +1,8 @@
 # Data-Structures-2023
-Programming assignments for CS261 Data Structures at OSU
+Programming assignments and course notes for CS261 Data Structures at OSU
+
 
 ## Assignments
-
-Files are hidden. 
 
 ## Assignment 1: Python Fundamentals Review
 
@@ -43,8 +42,6 @@ Files are hidden.
 
 
 ## Notes
-
-Notes (including images) are from course's site. 
 
 ## Module 1 - Intro to Data Structures
 
