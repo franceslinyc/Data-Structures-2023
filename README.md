@@ -114,11 +114,23 @@ List of Functions
 
 - 02 Exploration/ Heap Implementation
 
+
+
 ## Module 8 - Hash Maps
  
 - 01 Exploration/ Introduction to Maps and Hash Tables
 
 - 02 Exploration/ Hash Table Collisions
+
+
+
+## Module 9 - Graphs, DFS/BFS, Dijkstra's 
+
+- 01 Exploration/ Graphs
+
+- 02 Exploration/ Working with Graphs
+
+
 
 
 ## References 
