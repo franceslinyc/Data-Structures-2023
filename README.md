@@ -33,7 +33,7 @@ List of Functions
 
 List of Functions
 
-## Assignment 6: HashMap (Portfolio Assigment)
+## [Assignment 6: HashMap (Portfolio Assigment)](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A6.pdf)
 
 [\[File hidden\]:  / 140]()
 
