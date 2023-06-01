@@ -23,13 +23,13 @@ List of Functions
 
 ## [Assignment 4: BST/AVL Tree Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
 
-[\[File hidden\]: 110 / 120]()
+[\[File hidden\]: 110 / 120]() (Lost point for AVL Test 3 for `remove()`)
 
 List of Functions
 
 ## [Assignment 5: MinHeap Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A5.pdf)
 
-[\[File hidden\]:  / 120]()
+[\[File hidden\]:  / 120]() 
 
 List of Functions
 
