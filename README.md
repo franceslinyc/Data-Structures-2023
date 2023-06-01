@@ -3,41 +3,41 @@ Programming assignments for CS261 Data Structures at OSU
 
 ## Assignments
 
-## [Assignment 1: Python Fundamentals Review](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
+## Assignment 1: Python Fundamentals Review
 
 [\[File hidden\]: 100 / 100]()
 
-List of Functions
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A1.pdf)
 
-## [Assignment 2: Dynamic Array and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf) 
+## Assignment 2: Dynamic Array and ADT Implementation
 
 [\[File hidden\]: 100 / 100]()
 
-List of Functions
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A2.pdf) 
 
-## [Assignment 3: Linked List and ADT Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
+## Assignment 3: Linked List and ADT Implementation
 
 [\[File hidden\]: 91 / 100]() (Lost point for time complexity for `slice()`)
 
-List of Functions
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
-## [Assignment 4: BST/AVL Tree Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
+## Assignment 4: BST/AVL Tree Implementation
 
 [\[File hidden\]: 110 / 120]() (Lost point for AVL Test 3 for `remove()`)
 
-List of Functions
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
 
-## [Assignment 5: MinHeap Implementation](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A5.pdf)
+## Assignment 5: MinHeap Implementation
 
 [\[File hidden\]:  / 120]() 
 
-List of Functions
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A5.pdf)
 
-## [Assignment 6: HashMap (Portfolio Assigment)](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A6.pdf)
+## Assignment 6: HashMap (Portfolio Assigment)
 
 [\[File hidden\]:  / 140]()
 
-List of Functions
+[List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A6.pdf)
 
 
 ## Notes
