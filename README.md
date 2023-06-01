@@ -119,7 +119,7 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 
 ## Module 8 - Hash Maps
  
-- 01 Exploration/ Introduction to Maps and Hash Tables
+- [01 Exploration/ Introduction to Maps and Hash Tables](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%208%20-%20Hash%20Maps/01%20Exploration%3A%20Introduction%20to%20Maps%20and%20Hash%20Tables)
 
 - 02 Exploration/ Hash Table Collisions
 
