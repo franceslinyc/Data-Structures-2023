@@ -6,9 +6,9 @@
 
 - There are two ways to accommodate. 
 
-1. via chaining (use linked lists as buckets or chains)
+  1. via chaining (use linked lists as buckets or chains)
 
-2. via open addressing (store directly in hash table array)
+  2. via open addressing (store directly in hash table array)
 
 ## Collision resolution with chaining
 
