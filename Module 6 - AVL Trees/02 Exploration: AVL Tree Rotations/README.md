@@ -29,7 +29,7 @@ Single rotation
 ![](single.png)
 
 
-double rotation
+Double rotation
 
 - In a double rotation, we rotate twice. 
 
@@ -41,5 +41,5 @@ double rotation
 
 ![](rotate.png)
 
-- edge case: root node 
+- Edge case: root node 
 

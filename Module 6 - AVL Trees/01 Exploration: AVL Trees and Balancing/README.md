@@ -5,7 +5,6 @@
 - **AVL tree** is a type of self-balancing BST. 
 
 - For BST, time complexity is $\mathcal{O}(h)$, where $h$ is height of the tree. 
-
 - For balanced BST, time complexity is $\mathcal{O}(\log(n))$. 
 
 - For very unbalanced BST, time complexity can be $\mathcal{O}(n)$. 
@@ -27,6 +26,8 @@
 
 - Balance needs to be maintained in every node. 
 
+![](balanced.png)
 
+![](unbalanced.png)
 
 
