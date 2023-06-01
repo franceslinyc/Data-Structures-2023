@@ -3,6 +3,8 @@ Programming assignments for CS261 Data Structures at OSU
 
 ## Assignments
 
+Files are hidden. 
+
 ## Assignment 1: Python Fundamentals Review
 
 [\[File hidden\]: 100 / 100]()
@@ -41,6 +43,8 @@ Programming assignments for CS261 Data Structures at OSU
 
 
 ## Notes
+
+Notes (including images) are from course's site. 
 
 ## Module 1 - Intro to Data Structures
 
