@@ -126,7 +126,7 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 
 ## Module 9 - Graphs, DFS/BFS, Dijkstra's 
 
-- 01 Exploration/ Graphs
+- [01 Exploration/ Graphs](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%209%20-%20Graphs%2C%20DFS%2C%20BFS%2C%20Dijkstra's/01%20Exploration%3A%20Graphs)
 
 - 02 Exploration/ Working with Graphs
 
