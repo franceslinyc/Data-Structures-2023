@@ -12,12 +12,12 @@
 
 1. Describe the parts of a graph.
 
-What does a node contain?
+  - What does a node contain?
 
-What does an edge contain?
+  - What does an edge contain?
 
 2. Evaluate when it is appropriate to use a weighted graph vs. an unweighted graph.
 
-What is an advantage to using an unweighted graph?
+  - What is an advantage to using an unweighted graph?
 
-What are the characteristics of a data set that requires a weighted graph?
+  - What are the characteristics of a data set that requires a weighted graph?
