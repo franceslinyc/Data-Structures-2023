@@ -28,6 +28,10 @@ Computer networking
   - Edges can be weighted or unweighted. (Weighted edges represent a property of the edge. For example, it might represent the distance between vertices).
   
   
+![](example.png)
 
+![](example2-1.png)
+
+![](example2-2.png)
 
 
