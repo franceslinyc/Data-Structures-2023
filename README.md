@@ -96,8 +96,6 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 - [03 Exploration/ BST Operations](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%205%20-%20Trees%2C%20Especially%20Binary%20Search%20Trees/03%20Exploration%3A%20BST%20Operations) 
 
 
-
-
 ## Module 6 - AVL Trees
 
 - [01 Exploration/ AVL Trees and Balancing](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%206%20-%20AVL%20Trees/01%20Exploration%3A%20AVL%20Trees%20and%20Balancing)
@@ -131,6 +129,11 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 - 02 Exploration/ Working with Graphs
 
 
+## Module 10 - Advanced Sorting
+
+- 01 Exploration/ Shellsort
+
+- 02 Exploration/ Mergesort
 
 
 ## References 
