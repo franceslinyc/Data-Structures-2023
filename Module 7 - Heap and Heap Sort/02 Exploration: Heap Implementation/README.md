@@ -23,11 +23,13 @@ Inserting an element into the array representation of a heap follows this proced
 
 1. Put the new element at the end of the array.
 
-2. Compute the inserted element’s parent index, (i − 1) / 2.
+2. Compute the inserted element’s parent index, $(i − 1) / 2$. 
 
 3. Compare the value of the inserted element with the value of its parent.
 
-4. If the value of the parent is greater than the value of the inserted element, swap the elements in the array and repeat from step 2. (Do not repeat if the element has reached the beginning of the array.)
+4. If the value of the parent is greater than the value of the inserted element, swap the elements in the array and repeat from step 2. 
+
+    1. Do not repeat if the element has reached the beginning of the array.
 
 ![](insert_1.png)
 
@@ -39,6 +41,16 @@ Inserting an element into the array representation of a heap follows this proced
 
 
 # Removing From A Heap
+
+Removing the minimum element is slightly more involved. It follows this procedure:
+
+1. Remember the value of the first element in the array (to be returned later).
+
+2. Replace the value of the first element in the array with the value of the last element, and remove the last element.
+
+3. If the array is not empty (i.e., it started with more than one element), compute the indices of the children of the replacement element ($2 * i + 1$ and $2 * i + 2$). 
+
+    1. If both of these elements fall beyond the bounds of the array, we can stop here.
 
 # Building a Heap From an Unsorted Array
 
