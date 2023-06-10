@@ -19,4 +19,27 @@
 
 # Inserting Into A Heap
 
- 
+Inserting an element into the array representation of a heap follows this procedure: 
+
+1. Put the new element at the end of the array.
+
+2. Compute the inserted element’s parent index, (i − 1) / 2.
+
+3. Compare the value of the inserted element with the value of its parent.
+
+4. If the value of the parent is greater than the value of the inserted element, swap the elements in the array and repeat from step 2. (Do not repeat if the element has reached the beginning of the array.)
+
+![](insert_1.png)
+
+![](insert_2.png)
+
+![](insert_3.png)
+
+![](insert_4.png)
+
+
+# Removing From A Heap
+
+# Building a Heap From an Unsorted Array
+
+# Heapsort
