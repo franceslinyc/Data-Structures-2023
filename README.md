@@ -111,7 +111,7 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 
 - 01 Exploration/ Priority Queues and Heaps
 
-- 02 Exploration/ Heap Implementation
+- 02 [Exploration/ Heap Implementation](https://github.com/franceslinyc/Data-Structures-2023/tree/main/Module%207%20-%20Heap%20and%20Heap%20Sort/02%20Exploration%3A%20Heap%20Implementation)
 
 
 
