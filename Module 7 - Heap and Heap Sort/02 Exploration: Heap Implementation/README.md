@@ -52,6 +52,17 @@ Removing the minimum element is slightly more involved. It follows this procedur
 
     1. If both of these elements fall beyond the bounds of the array, we can stop here.
 
+4. Compare the value of the replacement element with the minimum value of its two children (or possibly one child).
+
+5. If the replacement element’s value is greater than its minimum child’s value, swap those two elements in the array, and repeat from step 3.
+
+![](remove_1.png)
+
+![](remove_2.png)
+
+
+
+
 # Building a Heap From an Unsorted Array
 
 # Heapsort
