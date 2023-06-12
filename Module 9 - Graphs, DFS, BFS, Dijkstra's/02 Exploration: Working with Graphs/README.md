@@ -116,7 +116,66 @@ reachable: {LAX, MSP, ORD, PDX, SEA, SFO, STL}
 # Depth-First Search and Breadth-First Search
 
 
+The general algorithm for DFS and BFS is below. For DFS, we use a stack, and for BFS, we use a queue: 
+
+1. Initialize an empty set of visited vertices.
+
+2. Initialize an empty stack (DFS) or queue (BFS). Add $v_i$ to the stack/queue.
+
+3. If the stack/queue is not empty, pop/dequeue a vertex $v$.
+
+4. Perform any desired processing on $v$.
+
+  1. E.g., check if $v$ meets a desired condition.
+  
+5. (DFS only): If $v$ is not in the set of visited vertices:
+
+  1. Add $v$ to the set of visited vertices.
+
+  2. Push each vertex that is direct successor of $v$ to the stack.
+
+6. (BFS only):
+
+  1. Add $v$ to the set of visited vertices.
+
+  2. For each direct successor $v^{'}$ of $v$: If $v^{'}$ is not in the set of visited vertices, enqueue it into the queue. 
+
+7. Repeat from 3.
+
+
+Some comparisons between DFS and BFS:
+
 
 
 # Dijkstra’s algorithm: single source lowest-cost paths
+
+- Dijkstra’s algorithm finds the shortest/lowest-cost path from a specified vertex in a graph to all other reachable vertices in the graph.
+
+- Dijkstra’s algorithm is structured very much like DFS and BFS, except in this algorithm, we will use a priority queue to order our search.
+
+  - The priority values used in the queue correspond to the cumulative distance to each vertex added to the priority queue. 
+
+  - Therefore, we are always exploring the remaining node with the minimum cumulative cost.
+
+- Here’s the algorithm, which begins with some source vertex $v_s$:
+
+1. Initialize an empty map/hash table representing visited vertices.
+
+  1. Key is the vertex $v$.
+
+  2. Value is the min distance $d$ to vertex $v$.
+
+2. Initialize an empty priority queue, and insert $v_s$ into it with distance (priority) $0$.
+
+While the priority queue is not empty:
+
+1. Remove the first element (a vertex) from the priority queue and assign it to $v$. Let $d$ be $v$’s distance (priority). 
+
+2. If $v$ is not in the map of visited vertices:
+
+1. Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
+
+2. Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
+
+
 
