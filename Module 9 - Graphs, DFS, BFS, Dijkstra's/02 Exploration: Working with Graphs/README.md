@@ -22,9 +22,9 @@ We can use a very simple algorithm to answer this question. It looks like this, 
 
 4. If v is not in the set of reachable vertices:
 
-  1. Add it to the set of reachable vertices.
+    - Add it to the set of reachable vertices.
 
-  2. Add each vertex that is direct successor of $v$ to the stack.
+    - Add each vertex that is direct successor of $v$ to the stack.
 
 5. Repeat from 3.
 
@@ -126,19 +126,19 @@ The general algorithm for DFS and BFS is below. For DFS, we use a stack, and for
 
 4. Perform any desired processing on $v$.
 
-  - E.g., check if $v$ meets a desired condition.
+    - E.g., check if $v$ meets a desired condition.
   
 5. (DFS only): If $v$ is not in the set of visited vertices:
 
-  - Add $v$ to the set of visited vertices.
+    - Add $v$ to the set of visited vertices.
 
-  - Push each vertex that is direct successor of $v$ to the stack.
+    - Push each vertex that is direct successor of $v$ to the stack.
 
 6. (BFS only):
 
-  - Add $v$ to the set of visited vertices.
+    - Add $v$ to the set of visited vertices.
 
-  - For each direct successor $v^{'}$ of $v$: If $v^{'}$ is not in the set of visited vertices, enqueue it into the queue. 
+    - For each direct successor $v^{'}$ of $v$: If $v^{'}$ is not in the set of visited vertices, enqueue it into the queue. 
 
 7. Repeat from 3.
 
@@ -153,17 +153,17 @@ Some comparisons between DFS and BFS:
 
 - Dijkstra’s algorithm is structured very much like DFS and BFS, except in this algorithm, we will use a priority queue to order our search.
 
-  - The priority values used in the queue correspond to the cumulative distance to each vertex added to the priority queue. 
+    - The priority values used in the queue correspond to the cumulative distance to each vertex added to the priority queue. 
 
-  - Therefore, we are always exploring the remaining node with the minimum cumulative cost.
+    - Therefore, we are always exploring the remaining node with the minimum cumulative cost.
 
 Here’s the algorithm, which begins with some source vertex $v_s$:
 
 1. Initialize an empty map/hash table representing visited vertices.
 
-  - Key is the vertex $v$.
+    - Key is the vertex $v$.
 
-  - Value is the min distance $d$ to vertex $v$.
+    - Value is the min distance $d$ to vertex $v$.
 
 2. Initialize an empty priority queue, and insert $v_s$ into it with distance (priority) $0$.
 
@@ -173,9 +173,9 @@ While the priority queue is not empty:
 
 2. If $v$ is not in the map of visited vertices:
 
-  - Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
+    - Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
 
-  - Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
+    - Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
 
 
 
