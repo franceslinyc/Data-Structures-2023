@@ -10,7 +10,7 @@ This class:
 
 # Single source reachability
 
-- We might ask: which airports are reachable from PDX?
+We might ask: which airports are reachable from PDX?
 
 We can use a very simple algorithm to answer this question. It looks like this, if we are trying to find reachable vertices from some vertex $v_i$: 
 
@@ -33,7 +33,6 @@ Finding airports reachable from PDX would look like this:
 ```{}
 reachable: {}
 stack: [PDX]
-
 
 v: PDX
 successors: [SEA, SFO]
@@ -111,7 +110,8 @@ Done (stack empty)
 reachable: {LAX, MSP, ORD, PDX, SEA, SFO, STL}
 ```
 
-- We could also use a queue instead of a stack. This would result in a different order of exploration in the graph. 
+We could also use a queue instead of a stack. This would result in a different order of exploration in the graph. 
+
 
 # Depth-First Search and Breadth-First Search
 
@@ -126,19 +126,19 @@ The general algorithm for DFS and BFS is below. For DFS, we use a stack, and for
 
 4. Perform any desired processing on $v$.
 
-  1. E.g., check if $v$ meets a desired condition.
+  - E.g., check if $v$ meets a desired condition.
   
 5. (DFS only): If $v$ is not in the set of visited vertices:
 
-  1. Add $v$ to the set of visited vertices.
+  - Add $v$ to the set of visited vertices.
 
-  2. Push each vertex that is direct successor of $v$ to the stack.
+  - Push each vertex that is direct successor of $v$ to the stack.
 
 6. (BFS only):
 
-  1. Add $v$ to the set of visited vertices.
+  - Add $v$ to the set of visited vertices.
 
-  2. For each direct successor $v^{'}$ of $v$: If $v^{'}$ is not in the set of visited vertices, enqueue it into the queue. 
+  - For each direct successor $v^{'}$ of $v$: If $v^{'}$ is not in the set of visited vertices, enqueue it into the queue. 
 
 7. Repeat from 3.
 
@@ -157,13 +157,13 @@ Some comparisons between DFS and BFS:
 
   - Therefore, we are always exploring the remaining node with the minimum cumulative cost.
 
-- Here’s the algorithm, which begins with some source vertex $v_s$:
+Here’s the algorithm, which begins with some source vertex $v_s$:
 
 1. Initialize an empty map/hash table representing visited vertices.
 
-  1. Key is the vertex $v$.
+  - Key is the vertex $v$.
 
-  2. Value is the min distance $d$ to vertex $v$.
+  - Value is the min distance $d$ to vertex $v$.
 
 2. Initialize an empty priority queue, and insert $v_s$ into it with distance (priority) $0$.
 
@@ -173,9 +173,9 @@ While the priority queue is not empty:
 
 2. If $v$ is not in the map of visited vertices:
 
-  1. Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
+  - Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
 
-  2. Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
+  - Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
 
 
 
