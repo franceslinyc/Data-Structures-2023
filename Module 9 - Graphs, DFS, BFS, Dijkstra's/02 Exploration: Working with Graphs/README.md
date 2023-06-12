@@ -12,7 +12,7 @@ This class:
 
 - We might ask: which airports are reachable from PDX?
 
-- We can use a very simple algorithm to answer this question. It looks like this, if we are trying to find reachable vertices from some vertex $v_i$: 
+We can use a very simple algorithm to answer this question. It looks like this, if we are trying to find reachable vertices from some vertex $v_i$: 
 
 1. Initialize an empty set of reachable vertices.
 
@@ -173,9 +173,9 @@ While the priority queue is not empty:
 
 2. If $v$ is not in the map of visited vertices:
 
-1. Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
+  1. Let $d_i$ equal the cost/distance associated with edge $(v, v_i)$.
 
-2. Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
+  2. Insert $v_i$ to the priority queue with distance (priority) $d + d_i$.
 
 
 
