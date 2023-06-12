@@ -1,6 +1,5 @@
 # Introduction
 
-
 # Overview
 
 - Root node of the heap is stored at index 0.
@@ -59,8 +58,6 @@ Removing the minimum element is slightly more involved. It follows this procedur
 ![](remove_1.png)
 
 ![](remove_2.png)
-
-
 
 
 # Building a Heap From an Unsorted Array
