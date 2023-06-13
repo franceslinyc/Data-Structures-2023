@@ -116,6 +116,22 @@ As this sorting procedure runs, it maintains two properties:
 
 - The array through element k always forms a heap, with the minimum remaining value at the beginning of the array.
 
+![](heapsort_1.png)
 
+![](heapsort_2.png)
+
+![](heapsort_3.png)
+
+![](heapsort_4.png)
+
+![](heapsort_5.png)
+
+![](heapsort_6.png)
+
+![](heapsort_7.png)
+
+![](heapsort_8.png)
+
+etc. 
 
 
