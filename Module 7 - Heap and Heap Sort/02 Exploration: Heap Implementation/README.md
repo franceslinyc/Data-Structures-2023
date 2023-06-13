@@ -16,7 +16,8 @@
 
 ![](keeping_track.png)
 
-# Inserting Into A Heap
+
+# Inserting Into A Heap (Using "precolate up")
 
 Inserting an element into the array representation of a heap follows this procedure: 
 
@@ -39,7 +40,7 @@ Inserting an element into the array representation of a heap follows this proced
 ![](insert_4.png)
 
 
-# Removing From A Heap
+# Removing From A Heap (Using "precolate down")
 
 Removing the minimum element is slightly more involved. It follows this procedure:
 
@@ -60,6 +61,35 @@ Removing the minimum element is slightly more involved. It follows this procedur
 ![](remove_2.png)
 
 
-# Building a Heap From an Unsorted Array
+# Building a Heap From an Unsorted Array (Using "precolate down")
+
+$\mathcalO(n)$
+
+- We can use a procedure similar to the downward percolation (precolate down) part of our removal method to build a heap from an arbitrary array of values.
+
+- If we percolate down the first non-leaf element, then the subtree rooted at that element’s original position will be a proper heap.
+
+- The first non-leaf element (from the back of the array) is at $n / 2 − 1$ (using the floor from integer division). 
+
+- We can repeat this, moving backwards one element at a time from the first non-leaf element, and each time we percolate an element down, the subtree rooted at that element’s original position will be a proper heap. 
+
+![](heapsort_1.png)
+
+![](heapsort_2.png)
+
+![](heapsort_3.png)
+
+![](heapsort_4.png)
+
+![](heapsort_5.png)
+
+![](heapsort_6.png)
+
+![](heapsort_7.png)
 
 # Heapsort
+
+
+$\mathcalO(n log n)$ 
+
+
