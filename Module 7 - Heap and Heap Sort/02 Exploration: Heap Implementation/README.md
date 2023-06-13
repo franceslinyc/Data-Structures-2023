@@ -61,7 +61,7 @@ Removing the minimum element is slightly more involved. It follows this procedur
 ![](remove_2.png)
 
 
-# Building a Heap From an Unsorted Array (Using "precolate down")
+# Building a Heap From an Unsorted Array, "Heapify" (Using "precolate down")
 
 $\mathcalO(n)$
 
