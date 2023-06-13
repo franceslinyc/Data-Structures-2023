@@ -63,7 +63,7 @@ Removing the minimum element is slightly more involved. It follows this procedur
 
 # Building a Heap From an Unsorted Array, "Heapify" (Using "precolate down")
 
-$\mathcalO(n)$
+$\mathcal{O}(n)$
 
 - We can use a procedure similar to the downward percolation (precolate down) part of our removal method to build a heap from an arbitrary array of values.
 
@@ -90,7 +90,7 @@ $\mathcalO(n)$
 
 # Heapsort
 
-$\mathcalO(n log n)$ 
+$\mathcal{O}(n log n)$ 
 
 The first thing heapsort does is build a heap out of the array using the procedure described above.
 
