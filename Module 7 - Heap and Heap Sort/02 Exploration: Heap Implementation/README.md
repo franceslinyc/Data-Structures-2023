@@ -73,23 +73,49 @@ $\mathcalO(n)$
 
 - We can repeat this, moving backwards one element at a time from the first non-leaf element, and each time we percolate an element down, the subtree rooted at that element’s original position will be a proper heap. 
 
-![](heapsort_1.png)
+![](heapify_1.png)
 
-![](heapsort_2.png)
+![](heapify_2.png)
 
-![](heapsort_3.png)
+![](heapify_3.png)
 
-![](heapsort_4.png)
+![](heapify_4.png)
 
-![](heapsort_5.png)
+![](heapify_5.png)
 
-![](heapsort_6.png)
+![](heapify_6.png)
 
-![](heapsort_7.png)
+![](heapify_7.png)
+
 
 # Heapsort
 
-
 $\mathcalO(n log n)$ 
+
+The first thing heapsort does is build a heap out of the array using the procedure described above.
+
+- Remember, as mentioned in the video, that we only have to "heapify" the non-leaf nodes
+
+Then, to complete the sort, we use a procedure similar to our heap removal operation above, with a few small tweaks:
+
+- Keep a running counter $k$ that is initialized to one less than the size of the array (i.e., the last element).
+
+- Instead of replacing the first element in the array (the min) with the last element (the $k$th element), we swap those two elements in the array.
+
+- The array itself remains the same size, and we decrement $k$.
+
+- When percolating the replacement value down to its correct place in the array, we do not go beyond the end of the heap portion (see below).
+
+- Thus, the heap portion is effectively shrinking by $1$ with each iteration.
+
+We repeat this procedure until $k$ reaches the beginning of the array.
+
+As this sorting procedure runs, it maintains two properties:
+
+- The elements of the array after k are sorted, with the minimum element at the end of the array.
+
+- The array through element k always forms a heap, with the minimum remaining value at the beginning of the array.
+
+
 
 
