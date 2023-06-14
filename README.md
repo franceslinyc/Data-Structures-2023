@@ -4,6 +4,8 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 
 ## Assignments
 
+[(Private) Repository for Codes](https://github.com/franceslinyc/Data-Structures-2023-v2)
+
 ## Assignment 1: Python Fundamentals Review
 
 [\[File hidden\]: 100 / 100]()
