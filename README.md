@@ -18,25 +18,25 @@ Programming assignments and course notes for CS261 Data Structures at OSU
 
 ## Assignment 3: Linked List and ADT Implementation
 
-[\[File hidden\]: 91 / 100]() (Lost points for time complexity for `slice()`)
+[\[File hidden\]: 91 / 100]() (Points off for time complexity for `slice()`)
 
 [List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A3.pdf)
 
 ## Assignment 4: BST/AVL Tree Implementation
 
-[\[File hidden\]: 110 / 120]() (Lost points for AVL Test 3 for `remove()`)
+[\[File hidden\]: 110 / 120]() (Points off for AVL Test 3 for `remove()`)
 
 [List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A4.pdf)
 
 ## Assignment 5: MinHeap Implementation
 
-[\[File hidden\]: 85 / 120]() (Lost 35 points because functions are written recursively... Otherwise, all tests passed.)
+[\[File hidden\]: 85 / 120]() (Points off because functions are written recursively... Otherwise, all tests passed.)
 
 [List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A5.pdf)
 
 ## Assignment 6: HashMap (Portfolio Assigment)
 
-[\[File hidden\]:  / 140]()
+[\[File hidden\]: 127.5 / 140]() (Points off for accessing a private variable and using a build-in function)
 
 [List of Functions](https://github.com/franceslinyc/Data-Structures-2023/blob/main/toc/A6.pdf)
 
